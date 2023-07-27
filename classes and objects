@@ -1,0 +1,64 @@
+class Python:
+    version = input('Enter the version:')
+    ide = input('enter ide:')
+    def display(self):
+        print("\n the py speces:", self.version, self.ide)
+class Java:
+    version = input('Enter the version:')
+    ide = input('enter ide:')
+    def display(self):
+        print("\n the jv speces:", self.version, self.ide)
+
+
+P = Python()
+P.display()
+J = Java()
+J.display()
+
+
+
+
+class vehicle():
+    milage=("16")
+    maxspeed=("190")
+class child(vehicle):
+    liki=234
+    print("child class created")
+    print(liki)
+c=child()
+print(c.milage)
+print(c.maxspeed)
+
+v=vehicle()
+print(v.milage)
+print(v.maxspeed)
+
+
+
+
+
+
+class car():
+    def __init__(self,a,b):
+        self.a =a
+        self.b=b
+    def millage(self):
+        pass
+    def speed(self):
+        pass
+class Lambo(car):
+    def millage(self):
+        print("millage of Lambo is 5KMH",self.a)
+    def speed(self):
+        print("speed is Lambo 400KMH",self.b)
+
+a=int(input("enter millage : "))
+b=int(input("enter speed :"))
+c=int(input("enter millage : "))
+d=int(input("enter speed :"))
+k=Lambo(a,b)
+k.millage()
+k.speed()
+l=Lambo(c,d)
+l.speed()
+l.millage()
