@@ -15,7 +15,7 @@ P.display()
 J = Java()
 J.display()
 
-
+#####################################################################################################
 
 
 class vehicle():
@@ -29,6 +29,34 @@ c=child()
 print(c.milage)
 print(c.maxspeed)
 
+#####################################################################################################
+class pappa():
+    t=10
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+
+    def function1(self):
+        print("pull strict")
+        print(self.a, self.b)
+        pass
+class kunni():
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+    def function1(self):
+         print(self.a,self.b)
+         print("pull gowji")
+
+a=input("enter : ")
+b=input("enter : ")
+k=kunni(a,b)
+k.function1()
+
+
+#####################################################################################################
+
+
 v=vehicle()
 print(v.milage)
 print(v.maxspeed)
@@ -36,7 +64,7 @@ print(v.maxspeed)
 
 
 
-
+#####################################################################################################
 
 class car():
     def __init__(self,a,b):
@@ -62,3 +90,4 @@ k.speed()
 l=Lambo(c,d)
 l.speed()
 l.millage()
+#####################################################################################################
