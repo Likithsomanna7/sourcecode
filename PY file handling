@@ -26,3 +26,9 @@ import os
 os.remove("raju.txt")
 print("removed successfully")
 ##########################################################################################################################
+fp1=open(r"C:\Users\likit\OneDrive\Documents\jony.txt","a")
+l=["hello","im under the water h"]
+fp1.writelines("bossu morning dosu")
+print("written sucessfully")
+fp1.close()
+##########################################################################################################################
