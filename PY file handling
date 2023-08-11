@@ -1,0 +1,28 @@
+fp1=open(r"C:\Users\likit\OneDrive\Documents\jony.txt","w")
+fp1.write("hello im under the water please help me ")
+print("written sucessfully")
+fp1.close()
+##########################################################################################################################
+fp1=open(r"C:\Users\likit\OneDrive\Documents\jony.txt","r")
+d=fp1.readline()
+print(d)
+print("read  sucessfully")
+fp1.close()
+##########################################################################################################################
+fp1=open(r"C:\Users\likit\OneDrive\Documents\jony.txt","r")
+d=fp1.readline()
+print(d)
+fp1.seek(3)
+e=fp1.tell()
+print(e)
+print("read  sucessfully")
+fp1.close()
+##########################################################################################################################
+import os
+os.rename("raj.txt","raju.txt")
+print("renamed successfully")
+##########################################################################################################################
+import os
+os.remove("raju.txt")
+print("removed successfully")
+##########################################################################################################################
